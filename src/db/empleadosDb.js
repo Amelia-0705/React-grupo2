@@ -1,0 +1,66 @@
+let empleados = [
+  {
+    id: 1,
+    nombre: "Laya Dueñas",
+    puesto: "CEO",
+    categoria: "Business",
+    avatar: "empleado01.png",
+  },
+  {
+    id: 2,
+    nombre: "Astryd Vallés",
+    puesto: "CMO",
+    categoria: "Marketing",
+    avatar: "empleado02.png",
+  },
+  {
+    id: 3,
+    nombre: "Shantell Meza",
+    puesto: "CFO",
+    categoria: "Business",
+    avatar: "empleado03.png",
+  },
+  {
+    id: 4,
+    nombre: "Sergio Ocampo",
+    puesto: "CTO",
+    categoria: "Engineering",
+    avatar: "empleado04.png",
+  },
+  {
+    id: 5,
+    nombre: "Ares Jiménez",
+    puesto: "Art Director",
+    categoria: "Marketing",
+    avatar: "empleado05.png",
+  },
+  {
+    id: 6,
+    nombre: "Marta Pérez",
+    puesto: "Frontend Dev",
+    categoria: "Engineering",
+    avatar: "empleado06.png",
+  },
+  {
+    id: 7,
+    nombre: "Ellen Balderas",
+    puesto: "Digital Strategist",
+    categoria: "Marketing",
+    avatar: "empleado07.png",
+  },
+  {
+    id: 8,
+    nombre: "Cynthia Valentín",
+    puesto: "Backend Dev",
+    categoria: "Engineering",
+    avatar: "empleado08.png",
+  },
+  {
+    id: 9,
+    nombre: "Bernard Jung",
+    puesto: "DevOps Engineer",
+    categoria: "Engineering",
+    avatar: "empleado09.png",
+  },
+];
+export default empleados;
