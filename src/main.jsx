@@ -1,13 +1,12 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import Ejercicio7 from './components/Ejercicio7.jsx';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './index.css'
-import App from './App.jsx'
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
 
-createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <Ejercicio7></Ejercicio7>
-    <App />
-  </StrictMode>,
-)
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./index.css";
+import App from "./App.jsx";
+
+createRoot(document.getElementById("root")).render(
+  //<StrictMode>
+  <App />
+  //</StrictMode>
+);
